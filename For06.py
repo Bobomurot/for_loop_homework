@@ -7,4 +7,7 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    arry = []
+    for i in range(A, B):
+        arry.append(i)
+    return sum(arry)

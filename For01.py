@@ -6,4 +6,8 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    arry = []
+    for i in range(n+1):
+        arry.append(i)
+        i += 1
+    return arry

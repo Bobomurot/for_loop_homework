@@ -7,4 +7,7 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    arry = []
+    for _ in range(B, A-1, -1):
+        arry.append(_)
+    return arry

@@ -6,4 +6,10 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    arry = []
+    for i in range(N+1):
+        if i % 2 != 0:
+            arry.append(i)
+            i += 1
+        
+    return sum(arry)

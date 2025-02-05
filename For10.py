@@ -6,4 +6,7 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    l = []
+    for name in list1:
+        l.append(name[0].upper()+name[1:])
+    return l

@@ -6,4 +6,9 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    arry = []
+    for i in range(n+1):
+        arry.append(str(i))
+        i += 1
+        x = " ".join(map(str, arry))
+    return x
